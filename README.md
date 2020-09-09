@@ -1,8 +1,8 @@
-<h1>Extracting Adjectives and Numbers - NLP</h1>
+<h1>Extracting Apartment Parameters - NLP</h1>
 
 <h2>Explanation</h2>
-The project goal is to extract some entities, part of the speech tags, and numbers. Regarding that, 
-I have five different pipelines. In the following sections, I will try explain them briefly.
+The project goal is to extract some entities, part of the speech tags, and numbers, and apply them to given data structure. Regarding that, 
+I have created five different pipelines. These are:
 
 * Data collection
 * Data preprocessing
@@ -10,10 +10,10 @@ I have five different pipelines. In the following sections, I will try explain t
 * Data postprocessing / visualization
 * Server
 
+In the following sections, I will try explain them briefly.
+
 <h4> Data Collection</h4>
 This section is the initiator of the entire application, we obtain our data and software technical requirements to properly work, from clients and/or other resources.
-As an input, we have three different but correlated text input.
-
 As an input, we have three different but correlated text input.
 
 * The descriptions of the apartments (could be either batch process or parallel processing as well, but for simplicity, I went for single processing.)
@@ -22,9 +22,9 @@ As an input, we have three different but correlated text input.
 
 <h4> Data Preprocessing</h4>
 
-In almost all machine learning processing steps, the quality of the data is the most important aspect. It affects the quality, F scores, and other similarity matrices.
+In almost all machine learning processing steps, the quality of the data is the most important aspect. It affects the quality, F scores, and document similarity detections as well.
 
-Depending on the aim, the pre-processing stage usually includes cleaning the unnecessary tokens, punctuations, stop words, etc. In this problem, I only applied to lower the text variables and to demonstrate that it is part of the NLP.
+Depending on the aim, the pre-processing stage usually includes cleaning the unnecessary tokens, punctuations, stop words, etc. In this problem, I only applied to lower the text variables and to demonstrate that it is part of the NLP pipeline.
 
 <h4>Machine Learning / NLP</h4>
 
