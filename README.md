@@ -123,6 +123,7 @@ https://towardsdatascience.com/overview-of-text-similarity-metrics-3397c4601f50
 ![Response example](images/doc_matrix.png)
 
 <h4>Testing results:</h4>
+
 ```
 $ coverage run -m unittest _init_py.
 $ coverage report -m
